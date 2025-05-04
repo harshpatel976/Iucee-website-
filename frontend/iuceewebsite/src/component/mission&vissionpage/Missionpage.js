@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Missionpage = () => {
+const Missionpage = () => {
   return (
     <div>Missionpage</div>
   )
 }
+
+export default Missionpage
