@@ -1,0 +1,30 @@
+.core-members-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: black;
+  
+}
+
+.core-members-header img {
+  height: 40px;
+}
+.core-members-header-links  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.core-members-header-links a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.core-members-header-links a:hover{
+  color: #ff4500;
+  
+}
+.core-members-header-links a:active{
+  color: #ff4500;
+  
+}
