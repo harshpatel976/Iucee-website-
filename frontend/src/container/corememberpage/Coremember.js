@@ -176,7 +176,7 @@ const WingsSection = ({ category, subcategories }) => (
   </div>
 );
 
-const CoreMembers = () => (
+const Coremember = () => (
   <div className="core-members-page">
     {memberData.map((section, index) => (
       section.subcategories ? (
@@ -196,4 +196,4 @@ const CoreMembers = () => (
   </div>
 );
 
-export default CoreMembers;
+export default Coremember;
