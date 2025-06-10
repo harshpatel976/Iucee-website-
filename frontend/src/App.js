@@ -12,6 +12,8 @@ import Projects from './page/Projects';
 
 import Events from './page/Events';
 import Achievement from './page/Achievement';
+import EventsPage from './container/events/EventPage';
+import EventDetailPage from './container/events/EventsPage';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route path="/achievement" element={<Achievement/>} />
         {/* Default route (optional) */}
         <Route path="/" element={<Homepage/>} />
+         <Route path="/event" element={<EventsPage />} />
+        <Route path="/event/:id" element={<EventDetailPage />} />
       </Routes>
       <Footer/>
     </Router>
