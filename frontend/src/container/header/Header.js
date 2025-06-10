@@ -9,10 +9,10 @@ const Header = () => (
     <div className="core-members-header-links">
     <Link to="/">Home</Link>
       <Link to="/mission-vision">Mission & Vision</Link>
-      <Link to="/aim">Aim</Link>
+      <Link to="/events">Events</Link>
       <Link to="/core-members">Core Members</Link>
       <Link to="/projects">Projects</Link>
-      <Link to="/about-us">About Us</Link>
+      <Link to="/achievement">Achievement</Link>
     </div>
   </div>
 );

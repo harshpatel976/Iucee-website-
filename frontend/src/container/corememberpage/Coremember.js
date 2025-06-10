@@ -22,15 +22,19 @@ const imageMap = {
   'Coremember/Aneesh.jpg': '/Coremember/Aneesh.jpg',
   'Coremember/Mourya.jpg': '/Coremember/Mourya.jpg',
   'Coremember/Abhishek.jpg': '/Coremember/Abhishek.jpg',
-  'Coremember/Disha.jpg': '/Coremember/Disha.jpg',
+  
   'Coremember/Sanvi.jpg': '/Coremember/Sanvi.jpg',
   'Coremember/Sinchanaa.jpg': '/Coremember/Sinchanaa.jpg',
   'Coremember/Anirudha.jpg': '/Coremember/Anirudha.jpg',
   'Coremember/Anagha.jpg': '/Coremember/Anagha.jpg',
   'Coremember/Shivaani.jpg': '/Coremember/Shivaani.jpg',
-  'Coremember/Anagha.jpg': '/Coremember/Anagha.jpg',
+ 
   'Coremember/JEEVAN.jpg': '/Coremember/JEEVAN.jpg',
   'Coremember/priam.jpg': '/Coremember/priam.jpg',
+  'Coremember/Diksha.jpg': '/Coremember/Diksha.jpg',
+  'Coremember/Pawan.jpg': '/Coremember/Pawan.jpg',
+  'Coremember/shevanii.png': '/Coremember/shevanii.png',
+  'Coremember/Disha.png': '/Coremember/Disha.png',
   
   
 };
@@ -61,7 +65,7 @@ const memberData = [
         "name": "Industry & Relation Leads",
         "members": [
           { "name": "Pratham Ahuja", "position": "Industrial Relations Lead", "image": "/Coremember/Pratham.jpg" },
-          { "name": "Pawan Menon", "position": "Industrial Relations Lead", "image": "/Coremember/Shashank.jpg" }
+          { "name": "Pawan Menon", "position": "Industrial Relations Lead", "image": "/Coremember/Pawan.jpg" }
         ]
       },
       {
@@ -93,7 +97,7 @@ const memberData = [
           { "name": "Aneesh Kulkarni", "position": "Event Coordinator", "image": "/Coremember/Aneesh.jpg" },
           { "name": "Mourya P", "position": "Event Coordinator", "image": "/Coremember/Mourya.jpg" },
           { "name": "Abhishek Patil", "position": "Event Coordinator", "image": "/Coremember/Abhishek.jpg" },
-          { "name": "Disha RS", "position": "Event Coordinator", "image": "/Coremember/Disha.jpg" }
+          { "name": "Disha RS", "position": "Event Coordinator", "image": "/Coremember/Disha.png" }
         ]
       },
       {
@@ -112,13 +116,14 @@ const memberData = [
     "members": [
        { "name": "Anirudha Rao N L", "position": "Electronics lead", "image": "/Coremember/Anirudha.jpg" },
       { "name": "Anagha M K", "position": "Electronics Lead", "image": "/Coremember/Anagha.jpg" },
-      { "name": "Shivaani", "position": "Electronics Lead", "image": "/Coremember/Shivaani.jpg" }
+      { "name": "Shivaani", "position": "Electronics Lead", "image": "/Coremember/shevanii.png" }
     ]
   },
   {
     "category": "Kinetic Builders",
     "members": [
-      { "name": "Priam Dashtottar", "position": "Mechanical Lead", "image": "/Coremember/priam.jpg" }
+      { "name": "Priam Dashtottar", "position": "Mechanical Lead", "image": "/Coremember/priam.jpg" },
+       { "name": "Diksha Pandey", "position": "Mechanical Lead", "image": "/Coremember/Diksha.jpg" }
     ]
   }
 ];

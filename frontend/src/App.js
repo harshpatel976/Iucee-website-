@@ -7,9 +7,11 @@ import Coremeberpage from './page/Coremeberpage';
 import Homepage from './page/Homepage';
 import Footer from './container/footer/Footer';
 import Missionvision from './page/Missionvision';
-import Aim from './page/Aim';
+
 import Projects from './page/Projects';
-import Aboutus from './page/Aboutus';
+
+import Events from './page/Events';
+import Achievement from './page/Achievement';
 
 
 function App() {
@@ -18,10 +20,10 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/mission-vision" element={<Missionvision/>} />
-        <Route path="/aim" element={<Aim/>} />
+        <Route path="/events" element={<Events/>} />
         <Route path="/core-members" element={<Coremeberpage/>} />
         <Route path="/projects" element=<Projects/> />
-        <Route path="/about-us" element={<Aboutus/>} />
+        <Route path="/achievement" element={<Achievement/>} />
         {/* Default route (optional) */}
         <Route path="/" element={<Homepage/>} />
       </Routes>

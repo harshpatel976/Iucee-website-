@@ -1,5 +1,7 @@
 import React from 'react'
 import './style.css'
+import Section1Mission from '../container/homapage/Section1Mission'
+import Section2Aim from '../container/homapage/Section2Aim'
 const Homepage = () => {
   return (
     <>
@@ -13,6 +15,9 @@ const Homepage = () => {
         </h2>
       </div>
     </div>
+
+    <Section1Mission/>
+    <Section2Aim/>
      </>
   )
 }

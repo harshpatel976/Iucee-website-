@@ -1,0 +1,169 @@
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  padding: 40px;
+  padding-left: 148px;
+}
+
+.sidebar {
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+}
+
+.vertical-text {
+ 
+  color: #ff0000;
+  font-size: 25px;
+  font-weight: bold;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding-left: 148px;
+}
+
+.section {
+  width: 45%;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #ff0000;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.stellarGrid {
+  display: flex;
+  height: 100%;
+  padding: 48px 0px 48px 148px;
+  box-sizing: border-box;
+}
+
+.cosmicSidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  flex-shrink: 0;
+}
+
+.orbitText {
+  color: #ff4d4d;
+  font-size: 25px;
+  font-weight: bold;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.galaxyLayout {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.nebulaColumn {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #7d7d7d33;
+  
+}
+
+.astroTitle {
+  font-size: 32px;
+  font-weight: 500;
+ 
+  color: #ff4d4d;
+  padding: 0 0 0 30px;
+}
+
+.quantumDesc {
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+  flex-grow: 1;
+  padding: 30px;
+  
+}
+
+/* Icons */
+.iconSphere {
+  width: 30px;
+  height: 30px;
+  background-color: #00b7eb;
+  border-radius: 50%;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.iconSquare {
+  width: 30px;
+  height: 30px;
+  background-color: #ff69b4;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.iconSemiCircle {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(90deg, #00ff00 50%, #ffd700 50%);
+  border-radius: 50%;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.iconTriangles {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.iconTriangles::before,
+.iconTriangles::after {
+  content: '';
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 26px solid #00d4ff;
+}
+
+.iconTriangles::before {
+  top: 0;
+  left: 0;
+}
+
+.iconTriangles::after {
+  top: 10px;
+  left: 10px;
+  transform: rotate(180deg);
+}
