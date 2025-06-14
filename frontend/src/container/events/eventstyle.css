@@ -51,6 +51,9 @@ nav a:hover::after {
 .slider {
     position: relative;
     height: 80vh;
+    margin: auto;
+    width: 80%;
+    border-radius: 12px;
     overflow: hidden;
     background-color: #000;
 }

@@ -10,6 +10,12 @@ const EventDetailPage = () => {
   if (!event) return <p>Event not found</p>;
 
   return (
+    <>
+
+   <div className='corememberpage'>
+         Glimpse <span >  of Event  </span>
+    </div>
+    
     <div className="event-detail">
       <h1>{event.name}</h1>
       <p>{event.description}</p>
@@ -19,6 +25,7 @@ const EventDetailPage = () => {
         ))}
       </div>
     </div>
+     </>
   );
 };
 

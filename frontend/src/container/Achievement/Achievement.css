@@ -1,0 +1,63 @@
+/* Main grid container */
+.achievement-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+ 
+}
+
+/* Each achievement card */
+.achievement-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  
+  position: relative;
+}
+
+/* Each image wrapper inside slider */
+.slider-image-wrapper {
+  position: relative;
+}
+
+/* Actual image */
+.achievement-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+
+
+
+/* Overlay text on image */
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  color: white;
+}
+
+/* Title style */
+.achievement-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+/* Prize style */
+.achievement-prize {
+  font-size: 1rem;
+  color: #fef08a;
+}
+
+/* Customize slick dots */
+.slick-dots {
+  bottom: 10px;
+}

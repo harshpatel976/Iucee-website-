@@ -2,21 +2,21 @@
   {
     "id": "1",
     "name": "Elegant Wedding",
-    "thumbnail": "https://via.placeholder.com/300x200?text=Wedding",
+    "thumbnail": "/events/Events1/photo2.JPG",
     "description": "A beautiful wedding ceremony.",
     "images": [
-      "https://via.placeholder.com/600x400?text=Wedding+1",
-      "https://via.placeholder.com/600x400?text=Wedding+2"
+      "/events/Events1/photo2.JPG",
+      "/events/Events1/photo3.JPG"
     ]
   },
   {
     "id": "2",
     "name": "Corporate Gala",
-    "thumbnail": "https://via.placeholder.com/300x300?text=Gala",
+    "thumbnail": "/events/Events1/photo2.JPG",
     "description": "Annual corporate event with elegance.",
     "images": [
-      "https://via.placeholder.com/600x400?text=Gala+1",
-      "https://via.placeholder.com/600x400?text=Gala+2"
+      "/events/Events1/photo1.JPG",
+      "/events/Events1/photo4.JPG"
     ]
   }
 ]

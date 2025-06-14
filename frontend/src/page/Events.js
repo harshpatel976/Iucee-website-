@@ -6,9 +6,11 @@ const Events = () => {
   return (
     <>
     <div className='corememberpage'>
-        Events 
+       Events
     </div>
+    <div className='eventstitless'>Last Event</div>  
     <Slider/>
+    <div className='eventstitless'>Previous Events  </div>
     <EventsPage/>
 
 </>

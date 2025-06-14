@@ -19,7 +19,7 @@ const Slide = ({ slide, isActive }) => {
                 </div>
             </div>
             <a href="#" className="cta-button">
-                Book a Consultation
+                Inauguration 
             </a>
         </div>
     );
