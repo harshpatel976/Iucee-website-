@@ -127,22 +127,28 @@ const memberData = [
     ]
   }
 ];
+const MemberCard = ({ name, position, image }) => {
+  const fallbackImage = imageMap[image] || image;
+  const webpImage = fallbackImage.replace(/\.(jpg|jpeg|png)$/i, '.webp');
 
-const MemberCard = ({ name, position, image }) => (
-  <div
-    className="member-card"
-    style={{
-      backgroundImage: `url(${imageMap[image] || image})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    }}
-  >
-    <div className="member-info">
-      <h3>{name}</h3>
-      <p>{position}</p>
+  return (
+    <div className="member-card">
+      <picture>
+        <source srcSet={webpImage} type="image/webp" />
+        <img
+          src={fallbackImage}
+          alt={name}
+          loading="lazy"
+          className="member-image"
+        />
+      </picture>
+      <div className="member-info-overlay">
+        <h3>{name}</h3>
+        <p>{position}</p>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 const CategorySection = ({ category, members }) => (
   <div>
@@ -183,7 +189,7 @@ const WingsSection = ({ category, subcategories }) => (
 
 const Coremember = () => (
   <div className="core-members-page">
-    {memberData.map((section, index) => (
+    {memberData.map((section, index) =>
       section.subcategories ? (
         <WingsSection
           key={index}
@@ -197,7 +203,7 @@ const Coremember = () => (
           members={section.members}
         />
       )
-    ))}
+    )}
   </div>
 );
 
