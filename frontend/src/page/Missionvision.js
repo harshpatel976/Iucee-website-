@@ -6,6 +6,7 @@ const Missionvision = () => {
      <div className='corememberpage'>
         Mission &  <span className='corememberpagename' >   Vision </span>  
     </div>
+   
     </>
   )
 }

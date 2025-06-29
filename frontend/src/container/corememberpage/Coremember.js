@@ -28,7 +28,7 @@ const imageMap = {
   'Coremember/Anirudha.jpg': '/Coremember/Anirudha.jpg',
   'Coremember/Anagha.jpg': '/Coremember/Anagha.jpg',
   'Coremember/Shivaani.jpg': '/Coremember/Shivaani.jpg',
- 
+ 'Coremember/Shreeharsha.jpg': '/Coremember/Shreeharsha.jpg',
   'Coremember/JEEVAN.jpg': '/Coremember/JEEVAN.jpg',
   'Coremember/priam.jpg': '/Coremember/priam.jpg',
   'Coremember/Diksha.jpg': '/Coremember/Diksha.jpg',
@@ -41,7 +41,7 @@ const imageMap = {
 
 const memberData = [
   {
-    "category": "Core",
+    "category": "Cores",
     "members": [
       { "name": "Hemayth cs", "position": "President", "image": 'Coremember/Hemanthcs.jpg' },
       { "name": "Ananya D M", "position": "Vice President", "image": "Coremember/Ananya.JPG" },
@@ -104,8 +104,8 @@ const memberData = [
         "name": "Editor and Chief & Design Leads",
         "members": [
           { "name": "Sanvi Mahajan", "position": "Editor in Chief", "image": "/Coremember/Sanvi.jpg" },
-          { "name": "Jeevan", "position": "Editor in Chief", "image": "/Coremember/JEEVAN.jpg" },
-         
+          { "name": "Jeevan", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
+          { "name": "Shreeharsha N L", "position": "Design Lead", "image": "/Coremember/Shreeharsha.jpg" },
          
         ]
       }
@@ -152,7 +152,7 @@ const MemberCard = ({ name, position, image }) => {
 
 const CategorySection = ({ category, members }) => (
   <div>
-    <h2 className="category-title">{category}</h2>
+    <h2 className={`category-title ${category === "Core" ? "bold-title" : ""}`}>{category}</h2>
     <div className="member-grid">
       {members.map((member, index) => (
         <MemberCard
@@ -168,7 +168,7 @@ const CategorySection = ({ category, members }) => (
 
 const WingsSection = ({ category, subcategories }) => (
   <div>
-    <h2 className="category-title">{category}</h2>
+    <h2 className={`category-title ${category === "Wings" ? "bold-title" : ""}`}>{category}</h2>
     {subcategories.map((subcategory, index) => (
       <div key={index} className="subcategory">
         <h3 className="category-title">{subcategory.name}</h3>

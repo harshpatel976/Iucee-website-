@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section2Aim = () => {
   return (
-   <div className="stellarGrid">
+   <div className="stellarGrid" id="aim-section">
       {/* Vertical AIM Text */}
       <div className="cosmicSidebar">
         <h1 className="orbitText">AIM</h1>
@@ -14,7 +14,7 @@ const Section2Aim = () => {
         <div className="nebulaColumn">
           <h2 className="astroTitle">Discovery</h2>
           <p className="quantumDesc">
-            We kick things off with a deep-dive discovery session to understand your goals, challenges, and vision. It’s all about getting on the same page so we can recommend the best path forward.
+            We kick things off with a deep-dive discovery session to understand your goals, challenges, and vision. It's all about getting on the same page so we can recommend the best path forward.
           </p>
           <div className="iconSphere"></div>
         </div>
@@ -41,7 +41,7 @@ const Section2Aim = () => {
         <div className="nebulaColumn">
           <h2 className="astroTitle">Build</h2>
           <p className="quantumDesc">
-            With the designs finalized, we move into development. Whether we’ve designed it or you’re bringing your own, we use proven processes to build a smooth, functional, and scalable product.
+            With the designs finalized, we move into development. Whether we've designed it or you're bringing your own, we use proven processes to build a smooth, functional, and scalable product.
           </p>
           <div className="iconTriangles"></div>
         </div>

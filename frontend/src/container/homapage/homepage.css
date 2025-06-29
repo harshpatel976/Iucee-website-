@@ -1,55 +1,104 @@
 body {
-  background-color: #000;
   color: #fff;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .container {
   display: flex;
-  height: 100%;
-  padding: 40px;
-  padding-left: 148px;
+  min-height: 100vh;
+  padding: 100px 100px;
+  padding-left: 100px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
 }
 
 .sidebar {
-   
   display: flex;
   align-items: center;
   justify-content: center;
   width: 64px;
+  position: relative;
+  z-index: 2;
 }
 
 .vertical-text {
- 
   color: #ff0000;
-  font-size: 25px;
+  font-size: 32px;
   font-weight: bold;
   transform: rotate(-90deg);
   white-space: nowrap;
+  text-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+  letter-spacing: 3px;
 }
 
 .main-content {
   display: flex;
   flex: 1;
   justify-content: space-around;
-  padding-left: 148px;
+  padding-left: 80px;
+  position: relative;
+  z-index: 2;
 }
 
 .section {
   width: 45%;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 40px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 77, 77, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 77, 77, 0.4);
+  box-shadow: 0 10px 30px rgba(255, 77, 77, 0.1);
 }
 
 .section-title {
-  font-size: 26px;
+  font-size: 48px;
   font-weight: bold;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
   color: #ff0000;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: relative;
+  line-height: 1.2;
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #ff0000, #ff4d4d);
+  border-radius: 2px;
 }
 
 .paragraph {
-  margin-bottom: 16px;
-  line-height: 1.5;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 16px;
+  text-align: justify;
+  color: #e0e0e0;
+  transition: color 0.3s ease;
+}
+
+.paragraph:hover {
+  color: #ffffff;
 }
 
 .stellarGrid {
@@ -167,3 +216,79 @@ body {
   left: 10px;
   transform: rotate(180deg);
 }
+
+/* Enhanced Mission & Vision Styles */
+.vision-section {
+  background: linear-gradient(135deg, rgba(255, 77, 77, 0.05) 0%, rgba(255, 77, 77, 0.02) 100%);
+  border-left: 4px solid #ff0000;
+}
+
+.mission-section {
+  background: linear-gradient(135deg, rgba(255, 77, 77, 0.02) 0%, rgba(255, 77, 77, 0.05) 100%);
+  border-left: 4px solid #ff4d4d;
+}
+
+.content-wrapper {
+  position: relative;
+}
+
+.content-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background: radial-gradient(circle at center, rgba(255, 77, 77, 0.03) 0%, transparent 70%);
+  border-radius: 8px;
+  z-index: -1;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    padding: 40px 20px;
+    padding-left: 100px;
+  }
+  
+  .main-content {
+    padding-left: 80px;
+  }
+  
+  .section {
+    width: 48%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  
+  .sidebar {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .vertical-text {
+    transform: rotate(0deg);
+    font-size: 24px;
+  }
+  
+  .main-content {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  
+  .section {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+}
+

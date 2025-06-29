@@ -1,6 +1,5 @@
 import React from 'react';
 import events from './event.json';
-
 import './eventstyle.css';
 import EventCard from './EventCard';
 

@@ -1,22 +1,27 @@
 [
   {
     "id": "1",
-    "name": "Elegant Wedding",
-    "thumbnail": "/events/Events1/photo2.JPG",
-    "description": "A beautiful wedding ceremony.",
+    "name": "Inauguration of the Chapter",
+    "thumbnail": "/events/Events1/photo3.JPG",
+    "description": "The inauguration of the ANVAYA NIE IUCEE Student Chapter marks the start of a transformative journey, empowering students to lead impactful, real-world projects through innovation, collaboration, and ethical engineering.",
     "images": [
-      "/events/Events1/photo2.JPG",
-      "/events/Events1/photo3.JPG"
+      "/events/Events1/photo3.JPG",
+      "/events/Events1/photo4.JPG",
+      "/events/Events1/photo6.JPG",
+      "/events/Events1/photo7.JPG"
+      
     ]
   },
   {
     "id": "2",
-    "name": "Corporate Gala",
-    "thumbnail": "/events/Events1/photo2.JPG",
-    "description": "Annual corporate event with elegance.",
+    "name": "First Event",
+    "thumbnail": "/events/Events1/photo7.JPG",
+    "description": "The event featured insightful talks by two esteemed guests—one highlighting the journey of entrepreneurship and the other exploring the exciting vision behind Cosmic Ride. Their experiences inspired students to think beyond the classroom and embrace innovation with purpose.",
     "images": [
-      "/events/Events1/photo1.JPG",
-      "/events/Events1/photo4.JPG"
+      "/events/Events1/photo11.JPG",
+      "/events/Events1/photo9.JPG",
+      "/events/Events1/photo10.JPG",
+      "/events/Events1/photo8.JPG"
     ]
   }
 ]

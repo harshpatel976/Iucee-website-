@@ -1,4 +1,3 @@
-
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -26,7 +25,7 @@ function App() {
         <Route path="/mission-vision" element={<Missionvision/>} />
         <Route path="/events" element={<Events/>} />
         <Route path="/core-members" element={<Coremeberpage/>} />
-        <Route path="/projects" element=<Projects/> />
+        <Route path="/projects" element={<Projects/>} />
         <Route path="/achievement" element={<Achievement/>} />
         {/* Default route (optional) */}
         <Route path="/" element={<Homepage/>} />

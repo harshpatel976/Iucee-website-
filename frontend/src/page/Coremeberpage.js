@@ -6,11 +6,10 @@ const Coremeberpage = () => {
     
   return (
     <>
-    <div className='corememberpage'>
-        Core <span className='corememberpagename'corememberpage >Member </span>  
+    <div className='page-header'>
+        <h1 className='page-title'>CORE MEMBERS</h1>
     </div>
     <Coremember/>
-    
     </>
   )
 }

@@ -1,63 +1,160 @@
 /* Main grid container */
 .achievement-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
- 
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  gap: 40px;
+  padding: 50px;
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #000000;
+  min-height: 100vh;
 }
 
 /* Each achievement card */
 .achievement-card {
-  border-radius: 1rem;
+  display: flex;
+  background: #000000;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  
-  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+  height: 300px;
+  border: 2px solid rgba(255, 0, 0, 0.2);
 }
 
-/* Each image wrapper inside slider */
-.slider-image-wrapper {
-  position: relative;
+.achievement-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(255, 0, 0, 0.3);
+  border-color: rgba(255, 0, 0, 0.4);
 }
 
-/* Actual image */
+/* Image section */
 .achievement-image {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.achievement-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
 }
 
+.achievement-card:hover .achievement-image img {
+  transform: scale(1.08);
+}
 
-
-
-/* Overlay text on image */
-.image-overlay {
+/* Photos count badge */
+.achievement-photos-count {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 1rem;
-  text-align: center;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-  color: white;
+  bottom: 20px;
+  right: 20px;
+  background: #ff0000;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  box-shadow: 0 3px 12px rgba(255, 0, 0, 0.4);
+}
+
+/* Content section */
+.achievement-content {
+  flex: 1;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #000000;
 }
 
 /* Title style */
 .achievement-title {
-  font-size: 1.3rem;
+  font-size: 28px;
   font-weight: 700;
-  margin-bottom: 0.4rem;
+  color: #ff0000;
+  margin-bottom: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.8px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 /* Prize style */
 .achievement-prize {
-  font-size: 1rem;
-  color: #fef08a;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+/* Achievement badge */
+.achievement-badge {
+  background: #ff0000;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  box-shadow: 0 3px 12px rgba(255, 0, 0, 0.4);
+  align-self: flex-start;
 }
 
 /* Customize slick dots */
 .slick-dots {
-  bottom: 10px;
+  bottom: 15px;
+}
+
+.slick-dots li button:before {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff0000;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .achievement-container {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+  
+  .achievement-card {
+    height: auto;
+    flex-direction: column;
+  }
+  
+  .achievement-image {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .achievement-content {
+    padding: 25px;
+  }
+  
+  .achievement-title {
+    font-size: 24px;
+  }
+  
+  .achievement-prize {
+    font-size: 16px;
+  }
 }
