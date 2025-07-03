@@ -37,18 +37,20 @@ const Section1Mission = () => {
         <div className="section vision-section">
           <h2 className="section-title">VISION</h2>
           <div className="content-wrapper">
-            <p className="paragraph">
-              ENABLE STUDENTS TO LEAD IMPACTFUL PROJECTS THAT ADDRESS REAL-WORLD CHALLENGES.
-            </p>
-            <p className="paragraph">
-              REPRESENT NIE ON NATIONAL AND INTERNATIONAL STAGES THROUGH INNOVATION CONTESTS AND COLLABORATIVE INITIATIVES.
-            </p>
-            <p className="paragraph">
-              BUILD A NETWORK OF CHANGEMAKERS AND INNOVATORS LEVERAGING IUCEE'S GLOBAL ECOSYSTEM.
-            </p>
-            <p className="paragraph">
-              ESTABLISH OUR CHAPTER AS A CENTER OF EXCELLENCE FOR RESPONSIBLE, FORWARD-THINKING ENGINEERING.
-            </p>
+            <ul className="vision-mission-list">
+              <li className="list-item">
+                ENABLE STUDENTS TO LEAD IMPACTFUL PROJECTS THAT ADDRESS REAL-WORLD CHALLENGES.
+              </li>
+              <li className="list-item">
+                REPRESENT NIE ON NATIONAL AND INTERNATIONAL STAGES THROUGH INNOVATION CONTESTS AND COLLABORATIVE INITIATIVES.
+              </li>
+              <li className="list-item">
+                BUILD A NETWORK OF CHANGEMAKERS AND INNOVATORS LEVERAGING IUCEE'S GLOBAL ECOSYSTEM.
+              </li>
+              <li className="list-item">
+                ESTABLISH OUR CHAPTER AS A CENTER OF EXCELLENCE FOR RESPONSIBLE, FORWARD-THINKING ENGINEERING.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -56,18 +58,20 @@ const Section1Mission = () => {
         <div className="section mission-section">
           <h2 className="section-title">MISSION</h2>
           <div className="content-wrapper">
-            <p className="paragraph">
-              PROVIDE HANDS-ON LEARNING OPPORTUNITIES THROUGH TECHNICAL WORKSHOPS, INNOVATION CHALLENGES, AND INTERDISCIPLINARY PROJECTS.
-            </p>
-            <p className="paragraph">
-              INSPIRE CREATIVITY AND COLLABORATION VIA HACKATHONS, PROJECT-BASED LEARNING, AND ENGAGING SEMINARS.
-            </p>
-            <p className="paragraph">
-              PARTNER WITH FACULTY, INDUSTRY PROFESSIONALS, AND GLOBAL IUCEE MENTORS TO BRIDGE ACADEMIC KNOWLEDGE WITH REAL-WORLD SKILLS.
-            </p>
-            <p className="paragraph">
-              CULTIVATE A CULTURE OF PEER LEARNING, ETHICAL ENGINEERING, AND COMMUNITY-DRIVEN SOLUTIONS.
-            </p>
+            <ul className="vision-mission-list">
+              <li className="list-item">
+                PROVIDE HANDS-ON LEARNING OPPORTUNITIES THROUGH TECHNICAL WORKSHOPS, INNOVATION CHALLENGES, AND INTERDISCIPLINARY PROJECTS.
+              </li>
+              <li className="list-item">
+                INSPIRE CREATIVITY AND COLLABORATION VIA HACKATHONS, PROJECT-BASED LEARNING, AND ENGAGING SEMINARS.
+              </li>
+              <li className="list-item">
+                PARTNER WITH FACULTY, INDUSTRY PROFESSIONALS, AND GLOBAL IUCEE MENTORS TO BRIDGE ACADEMIC KNOWLEDGE WITH REAL-WORLD SKILLS.
+              </li>
+              <li className="list-item">
+                CULTIVATE A CULTURE OF PEER LEARNING, ETHICAL ENGINEERING, AND COMMUNITY-DRIVEN SOLUTIONS.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

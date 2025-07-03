@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #181818;
 }
 
 .core-members-header img {
@@ -16,6 +20,8 @@
   color: white;
   margin: 0 1rem;
   text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .core-members-header-links a:hover{

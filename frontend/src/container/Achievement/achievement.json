@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "name": "Team Greenovators",
+    "thumbnail": "/achievements/Achievements1/photo2.jpg",
+    "description": "Secured 3rd place at HDSE Leadership Intensive 2025 (June 2-6) at Agastya International Foundation, Kuppam. Presented SnapAgri - an AI-powered pest detection system featuring Kannada voice input, image-based detection, offline SMS guidance in regional languages, and free crop insurance for small farmers. Organized by Lehigh University, IUCEE, and Agastya Foundation. Team: Shivaanii G H (ECE, 2nd year) and Jeevan Kamsagar (ECE, 1st year).",
+    "images": [
+      "/achievements/Achievements1/photo1.jpg",
+      "/achievements/Achievements1/photo2.jpg",
+      "/achievements/Achievements1/photo3.jpg"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Bidirectional Audio to ISL Translator",
+    "thumbnail": "/achievements/Achievements2/photo1.jpg",
+    "description": "Won 3rd Prize at IEEE Ideathon 2025 (Malnad College, Hassan) for a real-time tool that translates audio/text to Indian Sign Language and ISL gestures to text/audio, with support for multiple Indian languages. Promotes inclusive communication for the hearing-impaired across India.",
+    "images": [
+      "/achievements/Achievements2/photo1.jpg",
+      "/achievements/Achievements2/photo2.jpg"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Web Dev Hackathon Champions",
+    "thumbnail": "/achievements/Achievements3/photo1.jpg",
+    "description": "1st Place at the 24-Hour Web Dev Hackathon (MIT Mysore, May 17, 2025). Harsh Patel, Pabitra, and Pragyanshu won ₹25,000 for their creativity, technical skills, and problem-solving. A proud moment for NIE IUCEE Student Chapter!",
+    "images": [
+      "/achievements/Achievements3/photo1.jpg",
+      "/achievements/Achievements3/photo2.jpg"
+    ]
+  }
+] 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './foote.css';
+import NavCardSection from '../homapage/NavCardSection';
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -25,18 +26,7 @@ const Footer = () => {
 
   return (
     <footer className="custom-footer">
-      <div className="footer-links">
-        <a href="#" onClick={navigateToHome}>Home</a>
-        <span>/</span>
-        <a href="#" onClick={() => navigateToPage('/events')}>Events</a>
-        <span>/</span>
-        <a href="#" onClick={() => navigateToPage('/core-members')}>Core Members</a>
-        <span>/</span>
-        <a href="#" onClick={() => navigateToPage('/projects')}>Projects</a>
-        <span>/</span>
-        <a href="#" onClick={() => navigateToPage('/achievement')}>Achievements</a>
-      </div>
-
+      <NavCardSection />
       <div className="footer-content">
         {/* Contact Information Section */}
         <div className="footer-section">
@@ -54,7 +44,7 @@ const Footer = () => {
             </div>
             <div className="contact-person">
               <h4>Email</h4>
-              <p>📧 nieiucee@gmail.com</p>
+              <p>📧 anvaya@nie.ac.in</p>
             </div>
           </div>
         </div>

@@ -45,8 +45,9 @@ const memberData = [
     "members": [
       { "name": "Hemayth cs", "position": "President", "image": 'Coremember/Hemanthcs.jpg' },
       { "name": "Ananya D M", "position": "Vice President", "image": "Coremember/Ananya.JPG" },
-      { "name": "Sanket S N", "position": "Treasurer", "image": "Coremember/Sanket.jpeg" },
-      { "name": "Shashank G", "position": "Secretary", "image": "Coremember/Shashank.jpg" }
+      { "name": "Shashank G", "position": "Secretary", "image": "Coremember/Shashank.jpg" },
+      { "name": "Sanket S N", "position": "Treasurer", "image": "Coremember/Sanket.jpeg" }
+      
     ]
   },
   {

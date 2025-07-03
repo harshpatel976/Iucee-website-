@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import Section1Mission from '../container/homapage/Section1Mission'
 import Section2Aim from '../container/homapage/Section2Aim'
+
 const Homepage = () => {
   return (
     <>
