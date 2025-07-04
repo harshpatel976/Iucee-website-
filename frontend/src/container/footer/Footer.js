@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div className="contact-person">
               <h4>Vice President</h4>
-              <p>Anayana DM</p>
+              <p>Ananya DM</p>
               <p>📞 +91 7892821431</p>
             </div>
             <div className="contact-person">
@@ -54,7 +54,7 @@ const Footer = () => {
           <h3>Location</h3>
           <div className="location-info">
             
-            <p>National Institute of Engineering</p>
+            <p>The National Institute of Engineering</p>
             <p>Mysore - 570008, Karnataka</p>
             <p>India</p>
             <div className="map-link">

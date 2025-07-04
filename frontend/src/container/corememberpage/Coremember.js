@@ -43,13 +43,14 @@ const memberData = [
   {
     "category": "Cores",
     "members": [
-      { "name": "Hemayth cs", "position": "President", "image": 'Coremember/Hemanthcs.jpg' },
+      { "name": "Hemanth CS", "position": "President", "image": 'Coremember/Hemanthcs.jpg' },
       { "name": "Ananya D M", "position": "Vice President", "image": "Coremember/Ananya.JPG" },
       { "name": "Shashank G", "position": "Secretary", "image": "Coremember/Shashank.jpg" },
       { "name": "Sanket S N", "position": "Treasurer", "image": "Coremember/Sanket.jpeg" }
       
     ]
   },
+  
   {
     "category": "Wings",
     "subcategories": [
@@ -102,7 +103,7 @@ const memberData = [
         ]
       },
       {
-        "name": "Editor and Chief & Design Leads",
+        "name": "Editor in Chief & Design Leads",
         "members": [
           { "name": "Sanvi Mahajan", "position": "Editor in Chief", "image": "/Coremember/Sanvi.jpg" },
           { "name": "Jeevan", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
@@ -113,7 +114,7 @@ const memberData = [
     ]
   },
   {
-    "category": "Electron Hubs",
+    "category": "Electronics Leads",
     "members": [
        { "name": "Anirudha Rao N L", "position": "Electronics lead", "image": "/Coremember/Anirudha.jpg" },
       { "name": "Anagha M K", "position": "Electronics Lead", "image": "/Coremember/Anagha.jpg" },
