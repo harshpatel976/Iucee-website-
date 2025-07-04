@@ -28,7 +28,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
   padding: 5px 10px;
-  border-radius: 4px;
+
 }
 
 .footer-links a:hover {
@@ -115,16 +115,11 @@
   text-decoration: none;
   transition: all 0.3s ease;
   padding: 8px;
-  border-radius: 8px;
+ 
   width: 100%;
   text-align: left;
 }
 
-.social-links a:hover {
-  color: #ff0000;
-  background-color: rgba(255, 0, 0, 0.1);
-  transform: translateX(5px);
-}
 
 .social-icon-img {
   width: 24px;
@@ -150,16 +145,12 @@
   cursor: pointer;
   transition: all 0.3s ease;
   padding: 10px;
-  border-radius: 8px;
+ 
   border: 1px solid transparent;
   width: 100%;
 }
 
-.location-info:hover {
-  background-color: rgba(255, 0, 0, 0.1);
-  border-color: rgba(255, 0, 0, 0.2);
-  transform: translateY(-2px);
-}
+
 
 .location-info p {
   text-align: left;
@@ -185,10 +176,6 @@
   text-align: left;
 }
 
-.map-link a:hover {
-  color: #ff3333;
-  transform: translateX(5px);
-}
 
 .map-link span {
   color: inherit;

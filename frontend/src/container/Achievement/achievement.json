@@ -12,16 +12,6 @@
   },
   {
     "id": "2",
-    "name": "Bidirectional Audio to ISL Translator",
-    "thumbnail": "/achievements/Achievements2/photo1.jpg",
-    "description": "Won 3rd Prize at IEEE Ideathon 2025 (Malnad College, Hassan) for a real-time tool that translates audio/text to Indian Sign Language and ISL gestures to text/audio, with support for multiple Indian languages. Promotes inclusive communication for the hearing-impaired across India.",
-    "images": [
-      "/achievements/Achievements2/photo1.jpg",
-      "/achievements/Achievements2/photo2.jpg"
-    ]
-  },
-  {
-    "id": "3",
     "name": "Web Dev Hackathon Champions",
     "thumbnail": "/achievements/Achievements3/photo1.jpg",
     "description": "1st Place at the 24-Hour Web Dev Hackathon (MIT Mysore, May 17, 2025). Harsh Patel, Pabitra, and Pragyanshu won ₹25,000 for their creativity, technical skills, and problem-solving. A proud moment for NIE IUCEE Student Chapter!",
@@ -29,5 +19,17 @@
       "/achievements/Achievements3/photo1.jpg",
       "/achievements/Achievements3/photo2.jpg"
     ]
+  },
+  {
+    "id": "3",
+    "name": "Bidirectional Audio to ISL Translator",
+    "thumbnail": "/achievements/Achievements2/photo1.jpg",
+    "description": "Won 3rd Prize at IEEE Ideathon 2025 (Malnad College, Hassan) for a real-time tool that translates audio/text to Indian Sign Language and ISL gestures to text/audio, with support for multiple Indian languages. Promotes inclusive communication for the hearing-impaired across India.",
+    "images": [
+      "/achievements/Achievements2/photo1.jpg",
+      "/achievements/Achievements2/photo2.jpg"
+    ]
   }
+  
+  
 ] 

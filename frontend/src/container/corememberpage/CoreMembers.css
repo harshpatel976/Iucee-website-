@@ -8,12 +8,13 @@
 /* Section Title */
 .core-members-page .category-title {
   color: #ff0000;
-  font-size: 2rem;
+  font-size: 20px;
+  font-weight: 700;
   text-align: center;
   padding: 0.5rem;
   text-transform: uppercase;
   margin-top: 2rem;
-  font-weight: bold;
+
   text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.3);
 }
 
@@ -42,17 +43,13 @@
   width: 230px;
   height: 280px;
   overflow: hidden;
-  border-radius: 10px;
+
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(255, 0, 0, 0.2);
+ 
   transition: all 0.3s ease;
 }
 
-.core-members-page .member-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.3);
-  border-color: rgba(255, 0, 0, 0.5);
-}
+
 
 /* Image fills entire card */
 .core-members-page .member-image {

@@ -42,14 +42,17 @@ const NavCardSection = () => {
       <h2 className="nav-card-section-title">Explore More</h2>
       <div className="nav-card-list">
         {navCards.map((card) => (
-          <div
-            key={card.title}
-            className="nav-card"
-            onClick={() => handleCardClick(card.path)}
-          >
-            <img src={card.image} alt={card.title} className="nav-card-image" />
-            <div className="nav-card-title">{card.title}</div>
-          </div>
+         <div
+  key={card.title}
+  className="nav-card"
+  onClick={() => handleCardClick(card.path)}
+>
+  <div className="nav-card-overlay">
+    <div className="nav-card-title">{card.title}</div>
+  </div>
+  <img src={card.image} alt={card.title} className="nav-card-image" />
+</div>
+
         ))}
       </div>
     </div>

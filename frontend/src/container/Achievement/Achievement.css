@@ -14,7 +14,7 @@
 .achievement-card {
   display: flex;
   background: #000000;
-  border-radius: 20px;
+
   overflow: hidden;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -23,11 +23,7 @@
   border: 2px solid rgba(255, 0, 0, 0.2);
 }
 
-.achievement-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 40px rgba(255, 0, 0, 0.3);
-  border-color: rgba(255, 0, 0, 0.4);
-}
+
 
 /* Image section */
 .achievement-image {
@@ -46,9 +42,6 @@
   transition: transform 0.3s ease;
 }
 
-.achievement-card:hover .achievement-image img {
-  transform: scale(1.08);
-}
 
 /* Photos count badge */
 .achievement-photos-count {
@@ -78,7 +71,7 @@
 
 /* Title style */
 .achievement-title {
-  font-size: 28px;
+ font-size: 20px;
   font-weight: 700;
   color: #ff0000;
   margin-bottom: 20px;
@@ -106,7 +99,7 @@
   background: #ff0000;
   color: #ffffff;
   padding: 8px 16px;
-  border-radius: 25px;
+ 
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -165,7 +158,7 @@
   max-width: 1400px;
   margin: auto;
   background: #000000;
-  border-radius: 20px;
+  
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -178,7 +171,7 @@
   color: #ffffff;
   border: none;
   padding: 14px 28px;
-  border-radius: 12px;
+ 
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -189,11 +182,7 @@
   box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
 }
 
-.back-button:hover {
-  background: #cc0000;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
-}
+
 
 .back-button:active {
   transform: translateY(0);
@@ -204,7 +193,7 @@
   margin-bottom: 50px;
   padding: 30px;
   background: #000000;
-  border-radius: 16px;
+;
 }
 
 .achievement-name {
@@ -232,7 +221,7 @@
 }
 
 .achievement-image-container {
-  border-radius: 16px;
+
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
@@ -240,10 +229,7 @@
   position: relative;
 }
 
-.achievement-image-container:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.2);
-}
+
 
 .achievement-images img {
   width: 100%;
@@ -256,9 +242,7 @@
   left: 0;
 }
 
-.achievement-image-container:hover img {
-  transform: scale(1.05);
-}
+
 
 /* Page header styles */
 .page-header {
@@ -290,7 +274,7 @@
   letter-spacing: 6px;
   color: #ff0000;
   text-transform: uppercase;
-  text-shadow: 3px 3px 6px rgba(255, 0, 0, 0.3);
+  
   position: relative;
   z-index: 2;
   margin: 0;

@@ -35,12 +35,12 @@ const Footer = () => {
             <div className="contact-person">
               <h4>President</h4>
               <p>Hemanth CS</p>
-              <p>📞 +91 88671 97294</p>
+              <p>📞 +91 8867197294</p>
             </div>
             <div className="contact-person">
-              <h4>Secretary</h4>
-              <p>Shashank G</p>
-              <p>📞 +91 93537 91927</p>
+              <h4>Vice President</h4>
+              <p>Anayana DM</p>
+              <p>📞 +91 7892821431</p>
             </div>
             <div className="contact-person">
               <h4>Email</h4>

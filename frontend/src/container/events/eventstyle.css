@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 24px 60px;
-    background-color: #1a2a2a;
+    background-color: #000;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
@@ -53,7 +53,7 @@ nav a:hover::after {
     height: 80vh;
     margin: auto;
     width: 80%;
-    border-radius: 12px;
+    
     overflow: hidden;
     background-color: #000;
 }
@@ -136,7 +136,7 @@ nav a:hover::after {
     padding: 14px 28px;
     font-size: 14px;
     font-weight: 700;
-    border-radius: 5px;
+    
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -173,7 +173,7 @@ nav a:hover::after {
 .nav-dot {
     width: 12px;
     height: 12px;
-    border-radius: 50%;
+   
     background-color: #999;
     cursor: pointer;
     border: none;
@@ -241,17 +241,17 @@ nav a:hover::after {
   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
   gap: 30px;
   padding: 40px;
-  max-width: 1400px;
+  max-height: 100%;
   margin: 0 auto;
   background: #000000;
-  min-height: 100vh;
+  
 }
 
 /* Enhanced Event Card */
 .event-card {
   display: flex;
   background: #000000;
-  border-radius: 16px;
+ 
   overflow: hidden;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -321,7 +321,7 @@ nav a:hover::after {
   background: #ff0000;
   color: #ffffff;
   padding: 6px 12px;
-  border-radius: 20px;
+ 
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
@@ -334,7 +334,7 @@ nav a:hover::after {
   max-width: 1400px;
   margin: auto;
   background: #000000;
-  border-radius: 20px;
+ 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -347,7 +347,7 @@ nav a:hover::after {
   color: #ffffff;
   border: none;
   padding: 14px 28px;
-  border-radius: 12px;
+ 
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -373,7 +373,7 @@ nav a:hover::after {
   margin-bottom: 50px;
   padding: 30px;
   background: #000000;
-  border-radius: 16px;
+
 }
 
 .event-name {
@@ -401,7 +401,7 @@ nav a:hover::after {
 }
 
 .event-image-container {
-  border-radius: 16px;
+ 
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
