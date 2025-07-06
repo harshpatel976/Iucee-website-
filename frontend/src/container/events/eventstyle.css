@@ -77,7 +77,7 @@ nav a::after {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #d4af37;
+  background-color: #ff0000;
   transition: 0.3s ease;
 }
 
@@ -89,6 +89,7 @@ nav a:hover::after {
 .slider {
   position: relative;
   height: 85vh;
+  border-radius: 20px;
   margin: auto;
   width: 90%;
   overflow: hidden;
@@ -99,6 +100,7 @@ nav a:hover::after {
   width: 100%;
   height: 100%;
   position: relative;
+  border-radius: 20px;
 }
 
 .slide {
@@ -168,7 +170,7 @@ nav a:hover::after {
   position: absolute;
   bottom: 60px;
   right: 60px;
-  background-color: #d4af37;
+  background-color: #ff0000;
   color: #1a2a2a;
   padding: 14px 28px;
   font-size: 14px;
@@ -180,7 +182,7 @@ nav a:hover::after {
 }
 
 .cta-button:hover {
-  background-color: #b8972e;
+  background-color: #ff0000;
 }
 
 /* Slider Footer */
@@ -216,7 +218,7 @@ nav a:hover::after {
 }
 
 .nav-dot.active {
-  background-color: #d4af37;
+  background-color: #ff0000;
 }
 
 /* Fallback Message */
@@ -482,6 +484,7 @@ nav a:hover::after {
     bottom: 60px;
     right: 30px;
     padding: 12px 20px;
+    padding-top: 50px;
     font-size: 13px;
   }
 

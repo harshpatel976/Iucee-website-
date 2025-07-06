@@ -48,13 +48,14 @@ const memberData = [
   {
     "category": "Cores",
     "members": [
-      { "name": "Hemayth cs", "position": "President", "image": 'Coremember/Hemanthcs.jpg' },
+      { "name": "Hemanth CS", "position": "President", "image": 'Coremember/Hemanthcs.jpg' },
       { "name": "Ananya D M", "position": "Vice President", "image": "Coremember/Ananya.JPG" },
       { "name": "Shashank G", "position": "Secretary", "image": "Coremember/Shashank.jpg" },
       { "name": "Sanket S N", "position": "Treasurer", "image": "Coremember/Sanket.jpeg" }
       
     ]
   },
+  
   {
     "category": "Wings",
     "subcategories": [

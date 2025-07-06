@@ -54,7 +54,7 @@ const Footer = () => {
           <h3>Location</h3>
           <div className="location-info">
             
-            <p>National Institute of Engineering</p>
+            <p>The National Institute of Engineering</p>
             <p>Mysore - 570008, Karnataka</p>
             <p>India</p>
             <div className="map-link">
