@@ -470,7 +470,7 @@ body {
   }
   
   .vertical-text {
-    
+    top:60px;
     transform: rotate(0deg);
     font-size: 24px;
   }

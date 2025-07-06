@@ -10,12 +10,13 @@ const Slide = ({ slide, isActive }) => {
             style={{ backgroundImage: `url('${slide.bgImage}')`}}
         ><div className="overlay"></div>
             <div className="slide-content">
-                <div className="text-left">
+                <div className="text-right">
                     <h1>{slide.title}</h1>
-                    <p>{slide.textLeft}</p>
+                    
                 </div>
                 <div className="text-right">
-                    <p>{slide.textRight}</p>
+                  <p>{slide.textLeft}</p>
+                      <p>{slide.textRight}</p>
                 </div>
             </div>
           
