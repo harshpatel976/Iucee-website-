@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import sliderData from './data/sliderData.json';
-import './PastEventsPage.css';
+import sliderData from '../../page/SliderData.json';
+import './eventstyle.css';
 
 const PastEventsPage = () => {
     const currentDate = new Date('2025-06-11'); // Current date: June 11, 2025
