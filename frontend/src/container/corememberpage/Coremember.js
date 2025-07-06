@@ -147,12 +147,15 @@ const memberData = [
 ];
 const MemberCard = ({ name, position, image }) => {
   const fallbackImage = imageMap[image] || image;
-  const webpImage = fallbackImage.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+  const webpImage =
+    fallbackImage.toLowerCase().includes('shreeharsha')
+      ? null
+      : fallbackImage.replace(/\.(jpg|jpeg|png)$/i, '.webp');
 
   return (
     <div className="member-card">
       <picture>
-        <source srcSet={webpImage} type="image/webp" />
+        {webpImage && <source srcSet={webpImage} type="image/webp" />}
         <img
           src={fallbackImage}
           alt={name}

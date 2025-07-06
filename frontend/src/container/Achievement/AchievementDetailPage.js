@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import achievements from './achievement.json';
 import './Achievement.css';
@@ -9,6 +9,10 @@ const AchievementDetailPage = () => {
   const achievement = achievements.find(a => a.id === id);
 
   const [selectedImage, setSelectedImage] = useState(null); // modal logic
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!achievement) return <p>Achievement not found</p>;
 

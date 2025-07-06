@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import LazyImage from '../../components/LazyImage';
 import events from './event.json';
@@ -11,7 +11,23 @@ const EventDetailPage = () => {
 
   const [selectedImage, setSelectedImage] = useState(null); // for modal
 
-  if (!event) return <p>Event not found</p>;
+  useEffect(() => {
+    // Scroll to top when component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
+  if (!event) return (
+    <div style={{ 
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center', 
+      height: '50vh',
+      color: '#fff',
+      fontSize: '18px'
+    }}>
+      Event not found
+    </div>
+  );
 
   const handleBackClick = () => {
     navigate('/events');
@@ -36,15 +52,19 @@ const EventDetailPage = () => {
         </div>
 
         <div className="event-images">
-          {event.images.map((img, index) => (
-            <div key={index} className="event-image-container" onClick={() => setSelectedImage(img)}>
-              <LazyImage 
-                src={img} 
-                alt={`${event.name} ${index + 1}`}
-                className="event-gallery-image"
-              />
-            </div>
-          ))}
+          {event.images && event.images.length > 0 ? (
+            event.images.map((img, index) => (
+              <div key={index} className="event-image-container" onClick={() => setSelectedImage(img)}>
+                <LazyImage 
+                  src={img} 
+                  alt={`${event.name} ${index + 1}`}
+                  className="event-gallery-image"
+                />
+              </div>
+            ))
+          ) : (
+            <div style={{color: 'red', fontWeight: 'bold'}}>No images found for this event.</div>
+          )}
         </div>
       </div>
 
