@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "HDSE Idea pitching at Agastya Foundation,Kuppam,Andrapradesh",
+    "thumbnail": "/achievements/Achievements1/photo2.jpg",
+    "description": "Secured 3rd place at HDSE Leadership Intensive 2025 (June 2-6) at Agastya International Foundation, Kuppam. Presented SnapAgri - an AI-powered pest detection system featuring Kannada voice input, image-based detection, offline SMS guidance in regional languages, and free crop insurance for small farmers. Organized by Lehigh University, IUCEE, and Agastya Foundation. Team: Shivaanii G H (ECE, 2nd year) and Jeevan Kamsagar (ECE, 1st year).",
+    "images": [
+      "/achievements/Achievements1/photo1.jpg",
+      "/achievements/Achievements1/photo2.jpg",
+      "/achievements/Achievements1/photo3.jpg"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Web Dev Hackathon Champions",
+    "thumbnail": "/achievements/Achievements3/photo2.jpg",
+    "description": "1st Place at the 24-Hour Web Dev Hackathon (MIT Mysore, May 17, 2025). Harsh Patel, Pabitra, and Pragyanshu won ₹25,000 for their creativity, technical skills, and problem-solving. A proud moment for NIE IUCEE Student Chapter!",
+    "images": [
+      "/achievements/Achievements3/photo1.jpg",
+      "/achievements/Achievements3/photo2.jpg"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Bidirectional Audio to ISL Translator",
+    "thumbnail": "/achievements/Achievements2/photo1.jpg",
+    "description": "Won 3rd Prize at IEEE Ideathon 2025 (Malnad College, Hassan) for a real-time tool that translates audio/text to Indian Sign Language and ISL gestures to text/audio, with support for multiple Indian languages. Promotes inclusive communication for the hearing-impaired across India.",
+    "images": [
+      "/achievements/Achievements2/photo1.jpg",
+      "/achievements/Achievements2/photo2.jpg"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "IUCEE Annual Meeting IASF 2024",
+    "thumbnail": "/achievements/Achievements4/image2.jpg",
+    "description": "The IUCEE International Annual Student Forum (IASF) 2024, held at VNR Vignana Jyothi Institute of Engineering and Technology in Hyderabad, brought together engineering students from across India for a transformative experiential learning event. Focused on real-world problem-solving, the forum challenged participants to develop innovative solutions in areas like mobility, healthcare, education, and sustainability. Through interactive workshops, expert mentoring, and collaborative team activities, students gained hands-on experience in design thinking, AI, and interdisciplinary innovation. IASF 2024 not only fostered technical and leadership skills but also provided a powerful platform for networking, creativity, and global engineering impact. Selected Projects: Detection of Water Leaks in Underground HDPE Water Pipes in Rural India Team Members: Shashank G, Harsh Patel, Nikitha H S, Harshitha B Magnetic Waste Segregator Team Members: Disha R S, Dhanyashree, Ananya D M, Govinda, Aneesh Kulkarni We are delighted to announce that the Magnetic Waste Segregator project was recognized among the top 10 projects out of 200 showcased and was awarded a cash prize of ₹10,000. ",
+    
+    "images": [
+      "/achievements/Achievements4/image1.jpg",
+      "/achievements/Achievements4/image2.jpg",
+      "/achievements/Achievements4/image3.jpg",
+      "/achievements/Achievements4/image4.jpg",
+      "/achievements/Achievements4/image5.jpg",
+      "/achievements/Achievements4/image6.jpg",
+      "/achievements/Achievements4/image7.jpg",
+      "/achievements/Achievements4/image8.jpg"
+    ]
+  }
+  
+  
+] 
