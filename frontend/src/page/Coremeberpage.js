@@ -7,7 +7,7 @@ const Coremeberpage = () => {
   return (
     <>
     <div className='page-headers'>
-        <h1 className='page-title'>CORE MEMBERS</h1>
+        <h1 className='page-title'>TEAM</h1>
     </div>
     <Coremember/>
     </>

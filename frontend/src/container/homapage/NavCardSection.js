@@ -15,12 +15,12 @@ const navCards = [
   },
   {
     title: 'Projects',
-    image: '/Projects/photo.JPEG',
+    image: '/Projects/photo.jpeg',
     path: '/projects',
   },
   {
     title: 'Achievements',
-    image: '/achievements/photo.JPEG',
+    image: '/achievements/photo.jpeg',
     path: '/achievement',
   },
 ];

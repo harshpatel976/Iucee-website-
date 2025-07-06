@@ -7,8 +7,7 @@ body {
 
 .container {
   background-color: #000;
-  display: flex;
-  min-height: 85vh;
+ 
   padding: 4px 0px 4px 148px;
   position: relative;
   opacity: 0;
@@ -26,6 +25,8 @@ body {
 }
 
 .vertical-text {
+      position: relative;
+    top: 298px;
   color: #ff0000;
   font-size: 25px;
   font-weight: bold;
@@ -142,21 +143,33 @@ body {
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
+/* ========== GLOBAL RESET ========== */
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
 
+/* ========== AIM SECTION CONTAINER ========== */
 .stellarGrid {
-  background-color: black;
   display: flex;
-  height: 100%;
-  padding: 48px 0px 0px 148px;
+  flex-wrap: wrap;
+  padding: 60px 20px 20px 148px;
+  background-color: #000;
   box-sizing: border-box;
 }
 
+/* ========== AIM VERTICAL TEXT ========== */
 .cosmicSidebar {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 60px;
   flex-shrink: 0;
+  margin-right: 30px;
 }
 
 .orbitText {
@@ -169,75 +182,81 @@ body {
   text-transform: uppercase;
 }
 
+/* ========== AIM CARDS WRAPPER ========== */
 .galaxyLayout {
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
-  justify-content: space-between;
-  padding-left: 20px;
+  gap: 30px;
 }
 
+/* ========== INDIVIDUAL CARD ========== */
 .nebulaColumn {
-  flex: 1;
-  height: 100%;
+  flex: 1 1 calc(25% - 30px);
+  min-width: 250px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 77, 77, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  
   justify-content: space-between;
-  padding: 20px;
-  border: 1px solid #7d7d7d33;
-  
+  transition: all 0.3s ease;
 }
 
+.nebulaColumn:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 77, 77, 0.4);
+  box-shadow: 0 10px 30px rgba(255, 77, 77, 0.1);
+}
+
+/* ========== CARD TITLE ========== */
 .astroTitle {
-  font-size: 32px;
-  font-weight: 500;
- 
+  font-size: 28px;
+  font-weight: 600;
   color: #ff0000;
-  padding: 0 0 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
 }
 
+/* ========== CARD DESCRIPTION ========== */
 .quantumDesc {
-  font-size: 16px;
-  line-height: 1.7;
-  letter-spacing: 0.3px;
+  font-size: 14px;
+  color: #e0e0e0;
+  line-height: 1.6;
+  text-align: justify;
   flex-grow: 1;
-  padding: 30px;
-  
+  margin-bottom: 20px;
 }
 
-/* Icons */
-.iconSphere {
-  width: 30px;
-  height: 30px;
-  background-color: #00b7eb;
-  border-radius: 50%;
-  margin-top: 20px;
-  align-self: center;
-}
-
-.iconSquare {
-  width: 30px;
-  height: 30px;
-  background-color: #ff69b4;
-  margin-top: 20px;
-  align-self: center;
-}
-
-.iconSemiCircle {
-  width: 30px;
-  height: 30px;
-  background: linear-gradient(90deg, #00ff00 50%, #ffd700 50%);
-  border-radius: 50%;
-  margin-top: 20px;
-  align-self: center;
-}
-
+/* ========== ICON STYLES ========== */
+.iconSphere,
+.iconSquare,
+.iconSemiCircle,
 .iconTriangles {
   width: 30px;
   height: 30px;
-  position: relative;
   margin-top: 20px;
   align-self: center;
+}
+
+.iconSphere {
+  background-color: #00b7eb;
+  border-radius: 50%;
+}
+
+.iconSquare {
+  background-color: #ff69b4;
+}
+
+.iconSemiCircle {
+  background: linear-gradient(90deg, #00ff00 50%, #ffd700 50%);
+  border-radius: 50%;
+}
+
+.iconTriangles {
+  position: relative;
 }
 
 .iconTriangles::before,
@@ -249,16 +268,151 @@ body {
   border-bottom: 26px solid #00d4ff;
 }
 
-.iconTriangles::before {
-  top: 0;
-  left: 0;
-}
-
 .iconTriangles::after {
   top: 10px;
   left: 10px;
   transform: rotate(180deg);
 }
+
+/* ========== VISION/MISSION LIST ========== */
+.vision-mission-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #e0e0e0;
+  line-height: 1.6;
+  text-align: justify;
+  transition: color 0.3s ease;
+}
+
+.list-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #ff0000;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.list-item:hover {
+  color: #ffffff;
+}
+
+/* ========== NAV CARD SECTION ========== */
+.nav-card-section {
+  padding: 40px;
+  background-color: #000;
+  color: white;
+}
+
+.nav-card-section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: red;
+}
+
+.nav-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav-card {
+  position: relative;
+  width: 210px;
+  height: 250px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: #111;
+}
+
+.nav-card:hover {
+  transform: scale(1.03);
+}
+
+.nav-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.nav-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1;
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .nebulaColumn {
+    flex: 1 1 calc(50% - 30px);
+  }
+
+  .stellarGrid {
+    padding-left: 100px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cosmicSidebar {
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .orbitText {
+    transform: rotate(0deg);
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .galaxyLayout {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+  }
+
+  .nebulaColumn {
+    flex: 1 1 100%;
+  }
+
+  .stellarGrid {
+    padding: 40px 20px;
+  }
+}
+
 
 /* Enhanced Mission & Vision Styles */
 .vision-section {
@@ -316,6 +470,7 @@ body {
   }
   
   .vertical-text {
+    
     transform: rotate(0deg);
     font-size: 24px;
   }

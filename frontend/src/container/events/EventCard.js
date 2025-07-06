@@ -11,6 +11,7 @@ const EventCard = ({ event }) => {
 
   return (
     <div className="event-card" onClick={handleClick}>
+    <div className='events-card-section'>
       <div className="event-image">
         <img src={event.thumbnail} alt={event.name} />
         <div className="event-photos-count">
@@ -24,7 +25,7 @@ const EventCard = ({ event }) => {
             {event.description}
           </div>
         )}
-      </div>
+      </div></div>
     </div>
   );
 };

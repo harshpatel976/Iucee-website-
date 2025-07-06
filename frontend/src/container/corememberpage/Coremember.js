@@ -21,6 +21,7 @@ const imageMap = {
   'Coremember/Hrudhya.jpg': '/Coremember/Hrudhya.jpg',
   'Coremember/Aneesh.jpg': '/Coremember/Aneesh.jpg',
   'Coremember/Mourya.jpg': '/Coremember/Mourya.jpg',
+  'Coremember/Navaneeth.jpg': '/Coremember/Navaneeth.jpg',
   'Coremember/Abhishek.jpg': '/Coremember/Abhishek.jpg',
   
   'Coremember/Sanvi.jpg': '/Coremember/Sanvi.jpg',
@@ -35,6 +36,10 @@ const imageMap = {
   'Coremember/Pawan.jpg': '/Coremember/Pawan.jpg',
   'Coremember/shevanii.png': '/Coremember/shevanii.png',
   'Coremember/Disha.png': '/Coremember/Disha.png',
+  'Coremember/Sameeksha.png': '/Coremember/Sameeksha.png',
+  'Coremember/Sinchana1.png': '/Coremember/Sinchana1.png',
+  'Coremember/Anirudthr.jpg': '/Coremember/Anirudthr.jpg',
+  'Coremember/shreejitha.png': '/Coremember/shreejitha.png',
   
   
 };
@@ -66,7 +71,9 @@ const memberData = [
         "name": "Industry & Relation Leads",
         "members": [
           { "name": "Pratham Ahuja", "position": "Industrial Relations Lead", "image": "/Coremember/Pratham.jpg" },
-          { "name": "Pawan Menon", "position": "Industrial Relations Lead", "image": "/Coremember/Pawan.jpg" }
+          { "name": "Pawan Menon", "position": "Industrial Relations Lead", "image": "/Coremember/Pawan.jpg" },
+          { "name": "Shreejitha", "position": "Industrial Relations Lead", "image": "/Coremember/shreejitha.jpg" },
+          { "name": "Anirudh R Shastry ", "position": "Industrial Relations Lead", "image": "/Coremember/Anirudthr.jpg" }
         ]
       },
       {
@@ -89,7 +96,7 @@ const memberData = [
         "name": "Outreach & Publication Leads",
         "members": [
           { "name": "Pabitra Ranjan Jena", "position": "Outreach and Publications Lead", "image": "/Coremember/Pabitra.jpg" },
-          { "name": "Hrudhiya R Shastry", "position": "Outreach and Publications Lead", "image": "/Coremember/Hrudhya.jpg" }
+          { "name": "Hrudhya R ", "position": "Outreach and Publications Lead", "image": "/Coremember/Hrudhya.jpg" }
         ]
       },
       {
@@ -98,22 +105,30 @@ const memberData = [
           { "name": "Aneesh Kulkarni", "position": "Event Coordinator", "image": "/Coremember/Aneesh.jpg" },
           { "name": "Mourya P", "position": "Event Coordinator", "image": "/Coremember/Mourya.jpg" },
           { "name": "Abhishek Patil", "position": "Event Coordinator", "image": "/Coremember/Abhishek.jpg" },
-          { "name": "Disha RS", "position": "Event Coordinator", "image": "/Coremember/Disha.png" }
+          { "name": "Disha RS", "position": "Event Coordinator", "image": "/Coremember/Disha.png" },
+          { "name": "Sameeksha", "position": "Event Coordinator", "image": "/Coremember/Sameeksha.jpg" }
         ]
       },
       {
-        "name": "Editor and Chief & Design Leads",
+        "name":"Sponsorship lead",
+        "members": [
+          { "name":"Sinchana ", "position":"Sponsorship Lead", "image":"/Coremember/Sinchana1.png" }
+        ]
+      },
+      {
+        "name": "Editor in Chief & Design Leads",
         "members": [
           { "name": "Sanvi Mahajan", "position": "Editor in Chief", "image": "/Coremember/Sanvi.jpg" },
           { "name": "Jeevan", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
           { "name": "Shreeharsha N L", "position": "Design Lead", "image": "/Coremember/Shreeharsha.jpg" },
+          { "name": "Navaneeth", "position": "Design Lead", "image": "/Coremember/Navaneeth.jpg" },
          
         ]
       }
     ]
   },
   {
-    "category": "Electron Hubs",
+    "category": "Electronic Hubs",
     "members": [
        { "name": "Anirudha Rao N L", "position": "Electronics lead", "image": "/Coremember/Anirudha.jpg" },
       { "name": "Anagha M K", "position": "Electronics Lead", "image": "/Coremember/Anagha.jpg" },

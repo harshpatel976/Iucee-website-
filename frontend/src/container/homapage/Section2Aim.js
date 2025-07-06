@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './homepage.css';
 
 const Section2Aim = () => {
   return (
-   <div className="stellarGrid" id="aim-section">
-      {/* Vertical AIM Text */}
+    <div className="stellarGrid" id="aim-section">
       <div className="cosmicSidebar">
         <h1 className="orbitText">AIM</h1>
       </div>
 
-      {/* Main Content */}
       <div className="galaxyLayout">
-        {/* Discovery */}
         <div className="nebulaColumn">
           <h2 className="astroTitle">Discovery</h2>
           <p className="quantumDesc">
@@ -19,7 +17,6 @@ const Section2Aim = () => {
           <div className="iconSphere"></div>
         </div>
 
-        {/* Strategy */}
         <div className="nebulaColumn">
           <h2 className="astroTitle">Strategy</h2>
           <p className="quantumDesc">
@@ -28,7 +25,6 @@ const Section2Aim = () => {
           <div className="iconSquare"></div>
         </div>
 
-        {/* Design */}
         <div className="nebulaColumn">
           <h2 className="astroTitle">Design</h2>
           <p className="quantumDesc">
@@ -37,7 +33,6 @@ const Section2Aim = () => {
           <div className="iconSemiCircle"></div>
         </div>
 
-        {/* Build */}
         <div className="nebulaColumn">
           <h2 className="astroTitle">Build</h2>
           <p className="quantumDesc">
@@ -47,7 +42,7 @@ const Section2Aim = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section2Aim
+export default Section2Aim;

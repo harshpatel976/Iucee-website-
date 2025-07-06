@@ -5,7 +5,7 @@ const Achievement = () => {
   return (
     <>
     <div className='page-headers'>
-        <h1 className='page-title'>ACHIEVEMENTS</h1>
+        <h1 className='page-title titlename'>ACHIEVEMENTS</h1>
     </div>
     <AchievementPage/>
     </>
