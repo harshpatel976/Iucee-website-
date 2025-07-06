@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import LazyImage from '../../components/LazyImage';
 import './eventstyle.css';
 
 const EventCard = ({ event }) => {
@@ -13,7 +14,11 @@ const EventCard = ({ event }) => {
     <div className="event-card" onClick={handleClick}>
     <div className='events-card-section'>
       <div className="event-image">
-        <img src={event.thumbnail} alt={event.name} />
+        <LazyImage 
+          src={event.thumbnail} 
+          alt={event.name}
+          className="event-thumbnail"
+        />
         <div className="event-photos-count">
           {event.images ? `${event.images.length} photos` : '1 photo'}
         </div>

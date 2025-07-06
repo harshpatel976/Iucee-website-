@@ -107,7 +107,7 @@ const memberData = [
           { "name": "Mourya P", "position": "Event Coordinator", "image": "/Coremember/Mourya.jpg" },
           { "name": "Abhishek Patil", "position": "Event Coordinator", "image": "/Coremember/Abhishek.jpg" },
           { "name": "Disha RS", "position": "Event Coordinator", "image": "/Coremember/Disha.png" },
-          { "name": "Sameeksha", "position": "Event Coordinator", "image": "/Coremember/Sameeksha.jpg" }
+          { "name": "Sameeksha M Urs", "position": "Event Coordinator", "image": "/Coremember/Sameeksha.jpg" }
         ]
       },
       {
@@ -118,10 +118,10 @@ const memberData = [
         ]
       },
       {
-        "name": "Editor in Chief & Design Leads",
+        "name": "Design Leads",
         "members": [
           
-          { "name": "Jeevan", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
+          { "name": "Jeevan Kamsagar HS", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
           { "name": "Shreeharsha N L", "position": "Design Lead", "image": "/Coremember/Shreeharsha.jpg" },
           { "name": "Navaneeth", "position": "Design Lead", "image": "/Coremember/Navaneeth.jpg" },
          
@@ -132,7 +132,7 @@ const memberData = [
   {
     "category": "Electronic Hubs",
     "members": [
-       { "name": "Anirudha Rao N L", "position": "Electronics lead", "image": "/Coremember/Anirudha.jpg" },
+       { "name": "Anirudha Rao", "position": "Electronics lead", "image": "/Coremember/Anirudha.jpg" },
       { "name": "Anagha M K", "position": "Electronics Lead", "image": "/Coremember/Anagha.jpg" },
       { "name": "Shivaani", "position": "Electronics Lead", "image": "/Coremember/shevanii.png" }
     ]

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import LazyImage from '../../components/LazyImage';
 import events from './event.json';
 import './eventstyle.css';
 
@@ -37,7 +38,11 @@ const EventDetailPage = () => {
         <div className="event-images">
           {event.images.map((img, index) => (
             <div key={index} className="event-image-container" onClick={() => setSelectedImage(img)}>
-              <img src={img} alt={`${event.name} ${index + 1}`} />
+              <LazyImage 
+                src={img} 
+                alt={`${event.name} ${index + 1}`}
+                className="event-gallery-image"
+              />
             </div>
           ))}
         </div>

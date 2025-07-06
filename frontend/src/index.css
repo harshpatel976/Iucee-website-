@@ -31,3 +31,23 @@ html::before, body::before, #root::before {
   z-index: -1;
 }
 
+/* Loading animation for lazy images */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Lazy image container styles */
+.lazy-image-container {
+  position: relative;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.lazy-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+

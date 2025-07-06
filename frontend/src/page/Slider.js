@@ -77,7 +77,7 @@ const Slider = () => {
                         />
                     ))}
                 </div>
-                {/* Navigation Elements */}
+                {/* Navigation Elements
                 <div className="slider-footer">
                     <div className="slide-counter">
                         {`0${currentSlide + 1}-0${futureEvents.length}`}
@@ -91,8 +91,8 @@ const Slider = () => {
                             ></button>
                         ))}
                     </div>
-                    <div className="unit">in</div>
-                </div>
+                    <div className="unit">in</div> */}
+                {/* </div> */}
             </section>
         </div>
     );

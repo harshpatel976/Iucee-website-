@@ -237,7 +237,7 @@ nav a:hover::after {
 /* Events Container */
 .events-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
   gap: 30px;
   padding: 40px;
   margin: 0 auto;
@@ -389,7 +389,7 @@ nav a:hover::after {
   font-size: 18px;
   line-height: 1.7;
   color: #fff;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
   font-weight: 400;
 }
