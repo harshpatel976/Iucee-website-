@@ -90,7 +90,7 @@ const memberData = [
         "name": "Database Leads",
         "members": [
           { "name": "Shreya P V", "position": "Database Lead", "image": "/Coremember/Shreya.jpg" },
-          { "name": "Sinchana S K", "position": "Database Lead", "image": "/Coremember/Sinchanaa.jpg" }
+          { "name": "Sinchanaa S K", "position": "Database Lead", "image": "/Coremember/Sinchanaa.jpg" }
         ]
       },
       {
@@ -111,15 +111,16 @@ const memberData = [
         ]
       },
       {
-        "name":"Sponsorship lead",
+        "name":"Sponsorship & Editor in Chief leads",
         "members": [
-          { "name":"Sinchana ", "position":"Sponsorship Lead", "image":"/Coremember/Sinchana1.png" }
+          { "name":"Sinchana ", "position":"Sponsorship Lead", "image":"/Coremember/Sinchana1.png" },
+          { "name": "Sanvi Mahajan", "position": "Editor in Chief", "image": "/Coremember/Sanvi.jpg" }
         ]
       },
       {
         "name": "Editor in Chief & Design Leads",
         "members": [
-          { "name": "Sanvi Mahajan", "position": "Editor in Chief", "image": "/Coremember/Sanvi.jpg" },
+          
           { "name": "Jeevan", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
           { "name": "Shreeharsha N L", "position": "Design Lead", "image": "/Coremember/Shreeharsha.jpg" },
           { "name": "Navaneeth", "position": "Design Lead", "image": "/Coremember/Navaneeth.jpg" },

@@ -4,8 +4,8 @@ import EventsPage from '../container/events/EventPage'
 const Events = () => {
   return (
     <div className='eventspage'>
-    <div className='events-header'>
-       <h1 className='events-title'>EVENTS</h1>
+    <div className='page-headers'>
+       <h1 className='page-title'>EVENTS</h1>
     </div>
     
     <div className='events-description'>
