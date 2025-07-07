@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import sliderData from '../page/SliderData.json'
+import sliderData from './SliderData.json'
 import './eventstyle.css';
 
 // Slide Component
