@@ -121,7 +121,7 @@ const memberData = [
         "name": "Design Leads",
         "members": [
           
-          { "name": "Jeevan Kamsagar H", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
+          { "name": "Jeevan Kamsagar HS", "position": "Design Lead", "image": "/Coremember/JEEVAN.jpg" },
           { "name": "Shreeharsha N L", "position": "Design Lead", "image": "/Coremember/Shreeharsha.jpg" },
           { "name": "Navaneeth", "position": "Design Lead", "image": "/Coremember/Navaneeth.jpg" },
          
