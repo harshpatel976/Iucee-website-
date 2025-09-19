@@ -28,7 +28,7 @@ const Header = () => {
             <Link to="/core-members" onClick={closeMenu}>Team</Link>
             <Link to="/projects" onClick={closeMenu}>Projects</Link>
             <Link to="/achievement" onClick={closeMenu}>Achievements</Link>
-            {/* <Link to="/faculty" onClick={closeMenu}>Faculty</Link> */}
+            
           </div>
 
           <div className="hamburger" onClick={toggleMenu}>
@@ -46,7 +46,7 @@ const Header = () => {
         <Link to="/core-members" onClick={closeMenu}>Team</Link>
         <Link to="/projects" onClick={closeMenu}>Projects</Link>
         <Link to="/achievement" onClick={closeMenu}>Achievements</Link>
-        {/* <Link to="/faculty" onClick={closeMenu}>Faculty</Link> */}
+        
       </div>
     </>
   );

@@ -16,7 +16,7 @@ import Achievement from './page/Achievement';
 import EventsPage from './container/events/EventPage';
 import EventDetailPage from './container/events/EventsPage';
 import AchievementDetailPage from './container/Achievement/AchievementDetailPage';
-import FacultyPage from './page/FacultyPage';
+
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
          <Route path="/event" element={<EventsPage />} />
         <Route path="/event/:id" element={<EventDetailPage />} />
         <Route path="/achievement/:id" element={<AchievementDetailPage />} />
-        <Route path="/faculty" element={<FacultyPage />} />
+        
       </Routes>
       <Footer/>
     </Router>
