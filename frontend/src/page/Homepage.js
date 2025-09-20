@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import Section1Mission from '../container/homapage/Section1Mission'
 import Section2Aim from '../container/homapage/Section2Aim'
+import Section3Faculty from '../container/homapage/Section3Faculty'
 import Slider from './Slider'
 
 const Homepage = () => {
@@ -20,6 +21,7 @@ const Homepage = () => {
 
     <Section1Mission/>
     <Section2Aim/>
+    <Section3Faculty/>
      </>
   )
 }

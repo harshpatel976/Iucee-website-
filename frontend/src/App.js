@@ -18,6 +18,7 @@ import EventDetailPage from './container/events/EventsPage';
 import AchievementDetailPage from './container/Achievement/AchievementDetailPage';
 
 
+
 function App() {
   return (
     <Router>
@@ -33,6 +34,7 @@ function App() {
          <Route path="/event" element={<EventsPage />} />
         <Route path="/event/:id" element={<EventDetailPage />} />
         <Route path="/achievement/:id" element={<AchievementDetailPage />} />
+        
       </Routes>
       <Footer/>
     </Router>
