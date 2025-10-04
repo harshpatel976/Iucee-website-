@@ -37,7 +37,7 @@ const Section3Aim = () => {
   ];
 
   return (
-    <div className="stellarGrid" id="faculty-section">
+    <div className="stellarGrids" id="faculty-section">
   <h1 className="faculty-title">Guiding Faculty</h1>
 
   <div className="faculty-grid">

@@ -411,6 +411,10 @@ body {
   .stellarGrid {
     padding: 40px 20px;
   }
+  .stellarGrids{
+    padding: 40px 10px;
+  }
+  
 }
 
 
@@ -562,10 +566,11 @@ body {
 
 .faculty-grid {
   display: grid;
+  display: flex;
   grid-template-columns: repeat(5, minmax(0, 1fr)); /* force 5 per row */
   gap: 40px;
-  width: 120%;          /* take full width */
-  max-width: 1500px;    /* optional: control total width */
+          /* take full width */
+    /* optional: control total width */
   margin: 0 auto;       /* center the grid */
 }
 
@@ -591,7 +596,7 @@ body {
 .faculty-photo {
   width: 70%;
   height: 150px; /* bigger rectangular image */
-  object-fit: cover; /* ensures image fills nicely */
+  object-fit: fill; /* ensures image fills nicely */
   object-position: center;
   border-radius: 0; /* remove circle */
   display: block;
@@ -639,6 +644,7 @@ body {
 }
 @media (max-width: 768px) {
   .faculty-grid {
+    
     grid-template-columns: repeat(2, 1fr);
   }
 }

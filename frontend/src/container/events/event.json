@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Inauguration of the Chapter",
-    "thumbnail": "/events/Events1/photo3.JPG",
+    "thumbnail": "/poster/Events1.jpg",
     "description": "The inauguration of the ANVAYA NIE IUCEE Student Chapter marks the start of a transformative journey, empowering students to lead impactful, real-world projects through innovation, collaboration, and ethical engineering.",
     "images": [
       "/events/Events1/photo1.JPG",
@@ -21,20 +21,58 @@
   {
     "id": "2",
     "name": "Total Lunar Eclipse-2025",
-    "thumbnail": "/events/Event2/p1.JPG",
+    "thumbnail": "/poster/Events2.jpg",
     "description": "Anvaya – NIE IUCEE Student Chapter, in collaboration with IIA and COSMOS Mysuru, hosted the Total Lunar Eclipse – 2025 event. The evening included expert talks, guided skywatching, and telescopic observation, attracting 200+ participants and receiving newspaper coverage.",
     "images": [
-      "/events/Event2/p1.JPG",
-      "/events/Event2/p2.JPG",
-      "/events/Event2/p3.JPG",    
-      "/events/Event2/p4.JPG",
-      "/events/Event2/p5.JPG",
-      "/events/Event2/p6.JPG",
-      "/events/Event2/p7.JPG",
-      "/events/Event2/p8.JPG",
-      "/events/Event2/p9.JPG",
-      "/events/Event2/p10.JPG",
-      "/events/Event2/p11.JPG"
+      "/events/Events2/p1.jpg",
+      "/events/Events2/p2.jpg",
+      "/events/Events2/p3.jpg",    
+      "/events/Events2/p4.jpg",
+      "/events/Events2/p5.jpg",
+      "/events/Events2/p6.jpg",
+      "/events/Events2/p7.jpg",
+      "/events/Events2/p8.jpg",
+      "/events/Events2/p9.jpg",
+      "/events/Events2/p10.jpg",
+      "/events/Events2/p11.jpg"
+    ]
+  },
+   {
+    "id": "3",
+    "name": "Total Lunar Eclipse-2025",
+    "thumbnail": "/poster/Events3.jpg",
+    "description": "Anvaya – NIE IUCEE Student Chapter, in collaboration with IIA and COSMOS Mysuru, hosted the Total Lunar Eclipse – 2025 event. The evening included expert talks, guided skywatching, and telescopic observation, attracting 200+ participants and receiving newspaper coverage.",
+    "images": [
+      "/events/Events3/p1.jpg",
+      "/events/Events3/p2.jpg",
+      "/events/Events3/p3.jpg",    
+      "/events/Events3/p4.jpg",
+      "/events/Events3/p5.jpg",
+      "/events/Events3/p6.jpg",
+      "/events/Events3/p7.jpg",
+      "/events/Events3/p8.jpg",
+      "/events/Events3/p9.jpg",
+      "/events/Events3/p10.jpg",
+      "/events/Events3/p11.jpg"
+    ]
+  },
+   {
+    "id": "4",
+    "name": "Total Lunar Eclipse-2025",
+    "thumbnail": "/poster/Events4.jpg",
+    "description": "Anvaya – NIE IUCEE Student Chapter, in collaboration with IIA and COSMOS Mysuru, hosted the Total Lunar Eclipse – 2025 event. The evening included expert talks, guided skywatching, and telescopic observation, attracting 200+ participants and receiving newspaper coverage.",
+    "images": [
+      "/events/Events4/p1.jpg",
+      "/events/Events4/p2.jpg",
+      "/events/Events4/p3.jpg",    
+      "/events/Events4/p4.jpg",
+      "/events/Events4/p5.jpg",
+      "/events/Events4/p6.jpg",
+      "/events/Events4/p7.jpg",
+      "/events/Events4/p8.jpg",
+      "/events/Events4/p9.jpg",
+      "/events/Events4/p10.jpg",
+      "/events/Events4/p11.jpg"
     ]
   }
 ]

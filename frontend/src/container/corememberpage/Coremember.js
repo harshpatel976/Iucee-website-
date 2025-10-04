@@ -32,7 +32,7 @@ const imageMap = {
  'Coremember/Shreeharsha.jpg': '/Coremember/Shreeharsha.jpg',
   'Coremember/JEEVAN.jpg': '/Coremember/JEEVAN.jpg',
   'Coremember/priam.jpg': '/Coremember/priam.jpg',
-  'Coremember/Diksha.jpg': '/Coremember/Diksha.jpg',
+  'Coremember/Advaith.jpg': '/Coremember/Advaith.jpg',
   'Coremember/Pawan.jpg': '/Coremember/Pawan.jpg',
   'Coremember/shevanii.png': '/Coremember/shevanii.png',
   'Coremember/Disha.png': '/Coremember/Disha.png',
@@ -106,7 +106,7 @@ const memberData = [
           { "name": "Aneesh Kulkarni", "position": "Event Coordinator", "image": "/Coremember/Aneesh.jpg" },
           { "name": "Mourya P", "position": "Event Coordinator", "image": "/Coremember/Mourya.jpg" },
           { "name": "Abhishek Patil", "position": "Event Coordinator", "image": "/Coremember/Abhishek.jpg" },
-          { "name": "Disha RS", "position": "Event Coordinator", "image": "/Coremember/Disha.png" },
+          { "name": "Advaith Shanker Bhat", "position": "Event Coordinator", "image": "/Coremember/Advaith.png" },
           { "name": "Sameeksha M Urs", "position": "Event Coordinator", "image": "/Coremember/Sameeksha.jpg" }
         ]
       },

@@ -349,7 +349,7 @@ font-size: 50px;
 .faculty-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   display: block;
 }
 
@@ -376,7 +376,7 @@ font-size: 50px;
 @media (max-width: 600px) {
   .faculty-card {
     width: 90vw;
-    height: 220px;
+    
   }
   .faculty-grid {
     gap: 1rem;
